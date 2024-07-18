@@ -27,7 +27,7 @@ const Header = () => {
           <li><NavLink to="/contact">Contact Us</NavLink></li>
         </ul>
         <div className="logo">
-          <img src="./LogoIcon.jpg" alt="Seasons Heritage Logo" />
+          <img src="./logo.svg" alt="Seasons Heritage Logo" />
         </div>
         <div className="contact">
           <span className="icon"><img src="./icon.svg" alt="Contact Icon" /></span>

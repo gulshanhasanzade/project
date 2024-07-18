@@ -6,9 +6,10 @@ export default function Home() {
   return (
     <div className='home'>
       <Header />
+      <div className="hero-container">
        <div className="hero-section">
         <h1>Find Perfect Vacation With Seasons Heritage</h1>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
         <button className="book-now-button">Book Now</button>
       </div>
       <div className="availability-section">
@@ -26,8 +27,8 @@ export default function Home() {
         </div>
         <button className="check-availability-button">Check Availability</button>
       </div> 
-
-      {/* <Footer /> */}
+      </div>
+      <Footer />
     </div>
   )
 }
