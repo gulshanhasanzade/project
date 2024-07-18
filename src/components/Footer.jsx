@@ -30,7 +30,7 @@ const Footer = () => {
         <a href="#"><img src='./twitter.svg'></img></a>
         </div>
       </div>
-      <span className='leaf'><img src='./leaf.svg' /></span>
+      {/* <span className='leaf'><img src='./leaf.svg' /></span> */}
     </footer>
   );
 };
