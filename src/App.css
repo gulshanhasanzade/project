@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -38,7 +38,7 @@
 }
 /* burda duzelis etdim */
 body{
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 header{
   z-index: 999;

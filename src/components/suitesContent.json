@@ -1,0 +1,31 @@
+{
+    "title": "Select Your Best Suites",
+    "buttonText": "Discover All Suites",
+    "suites": [
+      {
+        "name": "Deluxe Oceanview Suite",
+        "image": "deluxe-oceanview.jpg",
+        "size": "90 m²",
+        "bed": "1 King Size Bed",
+        "guests": "2 Guests",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      },
+      {
+        "name": "Premium Suite",
+        "image": "premium-suite.jpg",
+        "size": "95 m²",
+        "bed": "1 King Size Bed",
+        "guests": "2 Guests",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      },
+      {
+        "name": "Luxury Grande Suite",
+        "image": "luxury-grande.jpg",
+        "size": "120 m²",
+        "bed": "1 King Size Bed",
+        "guests": "2 Guests",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      }
+    ]
+  }
+  
