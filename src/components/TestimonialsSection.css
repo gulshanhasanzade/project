@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+   
+   
+   .testimonials-section {
+    width: 100%;
+    height: 70vh;
+    padding: 100px;
+    position: relative;
+  }
+  
+  .testimonials-section h1 {
+    color: #070E05;
+/* lg/Bold */
+font-family: "DM Serif Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 126%; /* 60.48px */
+letter-spacing: -0.96px;
+  }
+  
+  .testimonials-section p {
+    color: #7B7B7B;
+    /* Text lg/Regular */
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 155%; /* 27.9px */
+    letter-spacing: -0.36px;
+  }
+  
+  .testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial-item {
+    width: 32%;
+    text-align: left;
+    padding:  20px 0;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Other-Gap-11, 24px);
+  }
+
+  .testimonial-item h2{
+    width: 100%;
+    color:  #070E05;
+font-family: "DM Serif Display";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 132%; /* 31.68px */
+letter-spacing: -0.48px;
+}
+  
+  .testimonial-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .rating {
+    color: #FACC15;
+    font-size: 30px;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .author-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .arrows {
+    position: absolute;
+    top: 90px;
+    right: 70px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .arrows button {
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #5F6E5B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .arrows button:hover {
+    border: 1px solid #C8C8C8;
+    transition: ease-in 0.2s;
+  }
+  

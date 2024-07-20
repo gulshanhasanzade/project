@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from './Header';
 import LuxuryHotel from './LuxuryHotel';
@@ -6,6 +5,8 @@ import CuisineExperience from './CuisineExperience';
 import Suites from './Suites';
 import LuxurySection from './LuxurySection';
 import ServicesSection from './ServicesSection';
+import TestimonialsSection from './TestimonialsSection'; 
+import GallerySection from './GallerySection';
 import './Home.css';
 
 export default function Home({ openLoginModal }) {
@@ -39,9 +40,8 @@ export default function Home({ openLoginModal }) {
       <Suites/>
       <LuxurySection/>
       <ServicesSection/>
+      <TestimonialsSection /> 
+      <GallerySection />
     </div>
   );
 }
-
-
-

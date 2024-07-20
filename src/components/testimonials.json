@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Albert Flores",
+    "title": "Founder",
+    "image": "Albert.jpg",
+    "quote": "“It’s Unbelievable, I Really Like it”",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "rating": 5
+  },
+  {
+    "name": "Cody Fisher",
+    "title": "Owner & Founder",
+    "image": "Cody.jpg",
+    "quote": "“Truly Amazing with All The Things”",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "rating": 5
+  },
+  {
+    "name": "Jenny Wilson",
+    "title": "Entrepreneur",
+    "image": "Jenny.jpg",
+    "quote": "“One of the Best Hotel Where I Stay”",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "rating": 5
+  },
+  {
+    "name": "Jane Doe",
+    "title": "Manager",
+    "image": "Cody.jpg",
+    "quote": "Exceptional Service",
+    "description": "I have never experienced such wonderful service. Highly recommended!",
+    "rating": 5
+  },
+  {
+    "name": "John Smith",
+    "title": "CEO",
+    "image": "Albert.jpg",
+    "quote": "Best Experience Ever",
+    "description": "The attention to detail and the quality of service was outstanding.",
+    "rating": 5
+  },
+  {
+    "name": "John Smith",
+    "title": "CEO",
+    "image": "Jenny.jpg",
+    "quote": "Best Experience Ever",
+    "description": "The attention to detail and the quality of service was outstanding.",
+    "rating": 5
+  }
+]

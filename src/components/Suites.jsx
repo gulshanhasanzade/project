@@ -2,7 +2,7 @@
 
 import React from 'react';
 import content from './suitesContent.json';
-import './Suites.css';
+import './Suites1.css';
 
 const Suites = () => {
   return (
