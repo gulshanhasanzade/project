@@ -38,7 +38,7 @@ position: fixed;
     text-align: center;
     /* Text md/Regular */
     font-family: Lexend;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%; /* 24px */
@@ -46,16 +46,16 @@ position: fixed;
   }
   
   .logo img {
-    width: 56px;
-height: 56px;
-flex-shrink: 0;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
   }
   .icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: 1px solid #FFF;
     cursor: pointer;
@@ -70,7 +70,7 @@ flex-shrink: 0;
 color:  #070E05;
 text-align: center;
 font-family: Lexend;
-font-size: 16px;
+font-size: 20px;
 font-style: normal;
 font-weight: 300;
 line-height: 150%; 
@@ -81,19 +81,15 @@ color: #FFF;
 .enquire-button {
 display: flex;
 padding: 12px 18px 14px 28px;
-flex-direction: column;
 align-items: center;
-gap: 10px;
 background:  #5F6E5B;
 color:  #FFF;
-text-align: center;
 border: 1px solid #5F6E5B;
 font-family: Lexend;
-font-size: 16px;
+font-size: 20px;
 font-style: normal;
 font-weight: 300;
 line-height: 150%;
-letter-spacing: -0.32px;
 cursor: pointer;
 outline: none;
 border-radius: 0;

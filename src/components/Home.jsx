@@ -1,17 +1,18 @@
 
-
 import React from 'react';
 import Header from './Header';
 import LuxuryHotel from './LuxuryHotel';
 import CuisineExperience from './CuisineExperience';
 import Suites from './Suites';
+import LuxurySection from './LuxurySection';
+import ServicesSection from './ServicesSection';
 import './Home.css';
 
 export default function Home({ openLoginModal }) {
   return (
     <div className='home'>
       <Header openLoginModal={openLoginModal} />
-      <div className="hero-container">
+       <div className="hero-container">
         <div className="hero-section">
           <h1>Find Perfect Vacation With Seasons Heritage</h1>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
@@ -32,10 +33,12 @@ export default function Home({ openLoginModal }) {
           </div>
           <button className="check-availability-button">Check Availability</button>
         </div>
-      </div>
+       </div> 
       <LuxuryHotel />
       <CuisineExperience />
       <Suites/>
+      <LuxurySection/>
+      <ServicesSection/>
     </div>
   );
 }

@@ -13,7 +13,7 @@
 .suites-section {
     padding: 50px;
     text-align: center;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    padding: 5px 25px;
+    padding: 5px 48px;
   }
   
 .suites-title {
@@ -48,7 +48,7 @@ color:  #5F6E5B;
 text-align: center;
 /* Text md/Regular */
 font-family: Lexend;
-font-size: 16px;
+font-size: 20px;
 font-style: normal;
 font-weight: 300;
 line-height: 150%; /* 24px */
@@ -75,7 +75,7 @@ border-radius: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 13px;
+    gap: 12px;
     width: 30%;
     /* padding:  20px 70px; */
     text-align: left;
@@ -91,26 +91,55 @@ border-radius: 0;
   }
   
   .suite-details {
-    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     color: #777;
-    margin-bottom: 10px;
   }
-  
+  .suite-details span{
+    color:  #676767;
+    /* Text md/Regular */
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5px;
+  }
   .suite-description {
-    font-size: 1em;
-    margin-bottom: 10px;
+    color: #070E05;
+    /* Text md/Regular */
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
   }
   
   .suite-discover-more {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
+    background-color: #fff;
+    color: #5F6E5B;
+    /* Text md/Regular */
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
     cursor: pointer;
-    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid #FFF;
+    padding: 7px 0;
   }
   
   .suite-discover-more:hover {
-    background-color: #555;
+    border-radius: 0;
+   border: 1px solid #5F6E5B;
   }
-  

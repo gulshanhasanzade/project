@@ -17,10 +17,10 @@ const Suites = () => {
             <img src={process.env.PUBLIC_URL + '/' + suite.image} alt={suite.name} className="suite-image" />
             <h2 className="suite-name">{suite.name}</h2>
             <p className="suite-details">
-              <span>{suite.size}</span> | <span>{suite.bed}</span> | <span>{suite.guests}</span>
+              <span> <img src="./size.svg" alt="" />  {suite.size}</span>  <span> <img src="./bed.svg" alt="" /> {suite.bed}</span>  <span> <img src="/guest.svg" alt="" />  {suite.guests}</span>
             </p>
             <p className="suite-description">{suite.description}</p>
-            <button className="suite-discover-more">Discover More</button>
+            <button className="suite-discover-more">Discover More <img src="./right.svg" alt="" /> </button>
           </div>
         ))}
       </div>

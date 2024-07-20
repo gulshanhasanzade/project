@@ -1,0 +1,37 @@
+{
+    "title": "We Will Provide You Best Experience",
+    "description": "It is a long established fact that a reader will be distracted by the readable content.",
+    "services": [
+      {
+        "icon": "car.svg",
+        "title": "Airport Pick-up Service",
+        "description": "It is a long established fact that a reader will be distracted by the readable."
+      },
+      {
+        "icon": "laundry.svg",
+        "title": "Laundry Service",
+        "description": "It is a long established fact that a reader will be distracted by the readable."
+      },
+      {
+        "icon": "breakfast.svg",
+        "title": "Complementary Breakfast",
+        "description": "It is a long established fact that a reader will be distracted by the readable."
+      },
+      {
+        "icon": "wifi.svg",
+        "title": "Wifi & Internet",
+        "description": "It is a long established fact that a reader will be distracted by the readable."
+      },
+      {
+        "icon": "housekeeper.svg",
+        "title": "Housekeeper Service",
+        "description": "It is a long established fact that a reader will be distracted by the readable."
+      },
+      {
+        "icon": "parking.svg",
+        "title": "Private Parking Space",
+        "description": "It is a long established fact that a reader will be distracted by the readable."
+      }
+    ]
+  }
+  

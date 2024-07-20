@@ -42,15 +42,6 @@ box-shadow: 0px 10px 40px -4px rgba(16, 24, 40, 0.02), 0px 8px 8px -4px rgba(16,
       box-shadow: 0px 10px 40px -4px rgba(16, 24, 40, 0.02), 0px 8px 8px -4px rgba(16, 24, 40, 0.02);
     }
     
-    /* .close-button {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      font-size: 20px;
-      cursor: pointer;
-      color: #000;
-      background: #fff;
-    } */
     
     h2 {
       color: #070E05;
@@ -114,6 +105,8 @@ margin-top: 5px;
       align-self: stretch;
       background:  #5F6E5B;
       outline: none;
+      font-size: 20px;
+      color: #fff;
       border: 1px solid #5F6E5B;
       &:hover{
         background-color: #FFF;
@@ -142,4 +135,16 @@ font-weight: 300;
 line-height: 150%; /* 24px */
 letter-spacing: -0.32px;
 }
+
+.close-button{
+  position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    border: none;
+} 
     

@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.services-section {
+    display: flex;
+    width: 100%;
+    padding: 120px 100px;
+    flex-direction: column;
+    height: 90vh;
+    gap: 48px;
+    background: #5F6E5B;
+    padding: 120px 100px 0 100px;
+    flex-wrap: wrap;
+  }
+  
+  .services-section h1 {
+    color:  #FFF;
+    /* lg/Bold */
+    font-family: "DM Serif Display";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%; /* 60.48px */
+    letter-spacing: -0.96px;
+    padding: 0 53px;
+  }
+  
+  .services-section p {
+    color:  #FFF;
+    /* Text md/Regular */
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+    padding: 0 55px;
+  }
+  
+  .services-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 38px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .service-item {
+ max-width: 30%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+}
+  
+  .service-icon {
+    width: 46px;
+    height: 46px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item h2 {
+    color:  #FFF;
+/* xs/Medium */
+font-family: Lexend;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 132%; /* 31.68px */
+letter-spacing: -0.48px;
+}
+  
+.service-item p {
+    color:  #C8C8C8;
+/* Text md/Regular */
+font-family: Lexend;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+width: 65%;
+padding: 0;
+}
+  

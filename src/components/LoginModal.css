@@ -38,8 +38,6 @@
     display: flex;
 padding: 24px;
 flex-direction: column;
-/* justify-content: center; */
-/* align-items: center; */
 border-radius:  8px;
 background:  #FFF;
 box-shadow: 0px 10px 40px -4px rgba(16, 24, 40, 0.02), 0px 8px 8px -4px rgba(16, 24, 40, 0.02);
@@ -53,6 +51,8 @@ box-shadow: 0px 10px 40px -4px rgba(16, 24, 40, 0.02), 0px 8px 8px -4px rgba(16,
     cursor: pointer;
     color: #000;
     background: #fff;
+    padding: 10px;
+    border: none;
   }
   
   h2 {
@@ -141,23 +141,25 @@ font-weight: 300;
 line-height: 150%; /* 24px */
 letter-spacing: -0.32px;
   }
-  button {
+   
+    
+  
+  #loginBtn {
+    display: flex;
+    padding: 20px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border: 1px solid  #5F6E5B;
     padding: 10px;
     background: #5F6E5B;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  #loginBtn {
-    display: flex;
-    padding: 16px 24px;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    align-self: stretch;
-    border: 1px solid  #5F6E5B;
+    font-size: 20px;
+    border: 1px solid #5F6E5B;
     &:hover {
       background-color: #FFF;
       color: #5F6E5B;
@@ -170,16 +172,18 @@ letter-spacing: -0.32px;
     gap: 15px;
     background: #FFF;
     border: 1px solid #DFDFDF;
-    color: var(--Color-Dark-500, #070E05);
-text-align: center;
-/* Text md/Regular */
-font-family: Lexend;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 150%; /* 24px */
-letter-spacing: -0.32px;
-  }
+    color: #070E05;
+    text-align: center;
+    /* Text md/Regular */
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+    padding: 10px;
+    cursor: pointer;
+}
   .apple{
     display: flex;
     align-items: center;
@@ -187,22 +191,24 @@ letter-spacing: -0.32px;
     gap: 15px;
     background: #FFF;
     border: 1px solid #DFDFDF;
-    color: var(--Color-Dark-500, #070E05);
-text-align: center;
-/* Text md/Regular */
-font-family: Lexend;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 150%; /* 24px */
-letter-spacing: -0.32px;
-  }
+    color: #070E05;
+    text-align: center;
+    /* Text md/Regular */
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+    padding: 10px;
+    cursor: pointer;
+}
 .or{
   color: #070E05;
 text-align: center;
 /* Body-2 Regular */
 font-family: Montserrat;
-font-size: 14px;
+font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 171.429% */
@@ -212,20 +218,28 @@ margin-top: 10px;
   
   
   .register-button {
-  display: flex;
-padding: 16px  24px;
-flex-direction: column;
-align-items: center;
-gap: 10px;
-align-self: stretch;
-margin-top: 7px;
-border: 1px solid  #5F6E5B;
+    display: flex;
+    padding: 20px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border: 1px solid  #5F6E5B;
+    padding: 10px;
+    background: #5F6E5B;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid #5F6E5B;
+    margin-top: 10px;
+    &:hover {
+      background-color: #FFF;
+      color: #5F6E5B;
+    }
   }
   
-  .register-button:hover {
-    background: #FFF;
-    color: #5F6E5B;
-  }
   
   .login-with {
     display: flex;

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <div className="footer-logo">
+        <div className="footer-logo1">
           <img src="./LogoIcon.jpg" alt="Seasons Heritage Logo" />
           <p>(319) 555-0115</p>
           <p><a href="#">info@seasonsheritage.com</a></p>
@@ -22,7 +22,7 @@ const Footer = () => {
         <li><NavLink to="/gallery">Gallery</NavLink></li>
         <li><NavLink to="/contact">Contact Us</NavLink></li>
         </ul>
-      < div className="footer2">
+      <div className="footer2">
         <p>©2023 Seasons Heritage All Rights are reserved</p>
         <div className="footer2Icons"> 
         <a href="#"><img src='./facebook.svg'></img></a>

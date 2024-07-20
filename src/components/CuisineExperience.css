@@ -52,27 +52,29 @@ line-height: 150%; /* 24px */
 letter-spacing: -0.32px;
   }
   
-  .text-content2 button {
+  .text-content2 #btn3 {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 14px;
     border: 1px solid white;
-    width: 180px;
+    width: 30%;
     color:  #FFF;
 text-align: center;
 /* Text md/Regular */
 font-family: Lexend;
-font-size: 16px;
+font-size: 18px;
 font-style: normal;
 font-weight: 300;
 line-height: 150%; /* 24px */
 letter-spacing: -0.32px;
 gap: 10px;
 border-radius: 0;
+background: transparent;
+cursor: pointer;
   }
   
-  .text-content2 button:hover {
+  .text-content2 #btn3:hover {
      background-color: #FFF;
      color: #5F6E5B;
   }

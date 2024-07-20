@@ -10,7 +10,7 @@ const CuisineExperience = () => {
         {content.description.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
-        <button>{content.buttonText} <img src="./whiteArrow.svg" alt="" /> </button>
+        <button id='btn3'>{content.buttonText} <img src="./whiteArrow.svg" alt="" /> </button>
       </div>
       <div className="images2">
         {content.images.map((image, index) => (

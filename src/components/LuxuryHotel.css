@@ -81,28 +81,27 @@
   letter-spacing: -0.32px;
 }
 
-.text-content button {
+ #btn {
 display: flex;
-padding:  16px 24px;
+padding:  12px 24px;
 align-items: center;
 gap: 10px;
 background: #FFF;
 border: 1px solid  #5F6E5B;
 color: #5F6E5B;
 text-align: center;
-/* Text md/Regular */
 font-family: Lexend;
-font-size: 16px;
+font-size: 18px;
 font-style: normal;
 font-weight: 300;
-line-height: 150%; /* 24px */
+line-height: 150%;
 letter-spacing: -0.32px;
-width: 180px;
 border-radius: 0;
-}
+width: 32%;
+} 
 
-.text-content button:hover {
+ #btn:hover {
   background-color: #5F6E5B;
   color: #FFF;
-}
+} 
 
