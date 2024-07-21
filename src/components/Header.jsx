@@ -7,6 +7,7 @@ import LoginModal from './LoginModal';
 
 const Header = ({ openLoginModal }) => {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   const handleEnquireClick = () => {
     openLoginModal();
@@ -17,6 +18,10 @@ const Header = ({ openLoginModal }) => {
     setLoginModalOpen(false);
   };
 
+  const toggleDropdown = () => {
+    setDropdownOpen(!isDropdownOpen);
+  };
+
   return (
     <header className="header">
       <nav className="navbar">
@@ -24,7 +29,14 @@ const Header = ({ openLoginModal }) => {
           <li><NavLink to="/">Home</NavLink></li>
           <li><NavLink to="/about">About Us</NavLink></li>
           <li><NavLink to="/dining">Dining</NavLink></li>
-          <li><NavLink to="/rooms">Rooms</NavLink></li>
+          <li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+            <NavLink id='dropDown2' to="/rooms">Rooms <img  src="./dropDown.svg" alt="" /></NavLink>
+            {isDropdownOpen && (
+              <ul className="dropdown-menu">
+                <li><NavLink to="/rooms/detail">Rooms Detail Page</NavLink></li>
+              </ul>
+            )}
+          </li>
           <li><NavLink to="/contact">Contact Us</NavLink></li>
         </ul>
         <div className="logo">
@@ -47,4 +59,5 @@ const Header = ({ openLoginModal }) => {
 };
 
 export default Header;
+
 

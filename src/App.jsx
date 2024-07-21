@@ -12,6 +12,7 @@ import Gallery from './components/Gallery';
 import LoginModal from './components/LoginModal';
 import CreateAccountModal from './components/CreateAccountModal';
 import SuccessMessageModal from './components/SuccessMessageModal';
+import Details from './components/Details';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
@@ -52,6 +53,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/events" element={<Events />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/details" element={<Details />} />
         </Routes>
         <Footer />
         {showLoginModal && <LoginModal closeModal={closeModal} openCreateAccountModal={openCreateAccountModal} />}

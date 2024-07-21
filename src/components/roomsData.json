@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "Deluxe Oceanview Suite",
+    "image": "luxury1.jpg",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "$600/per night",
+    "details": [
+      {
+        "icon": "area.svg",
+        "text": "72m²"
+      },
+      {
+        "icon": "bed.svg",
+        "text": "1 King Bed"
+      },
+      {
+        "icon": "guests.svg",
+        "text": "3 Guests"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Luxury Grande Suite",
+    "image": "luxury2.jpg",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "$1200/night",
+    "details": [
+      {
+        "icon": "area.svg",
+        "text": "85m²"
+      },
+      {
+        "icon": "bed.svg",
+        "text": "1 King Bed"
+      },
+      {
+        "icon": "guests.svg",
+        "text": "2 Guests"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Premium Suite",
+    "image": "luxury3.jpg",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "$800/night",
+    "details": [
+      {
+        "icon": "area.svg",
+        "text": "78m²"
+      },
+      {
+        "icon": "bed.svg",
+        "text": "1 King Bed"
+      },
+      {
+        "icon": "guests.svg",
+        "text": "2 Guests"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Studio Apartment City View",
+    "image": "luxury4.jpg",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "$850/night",
+    "details": [
+      {
+        "icon": "area.svg",
+        "text": "65m²"
+      },
+      {
+        "icon": "bed.svg",
+        "text": "1 King Bed"
+      },
+      {
+        "icon": "guests.svg",
+        "text": "2 Guests"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Royal Luxury Sea View Suite",
+    "image": "luxury5.jpg",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "$1500/night",
+    "details": [
+      {
+        "icon": "area.svg",
+        "text": "120m²"
+      },
+      {
+        "icon": "bed.svg",
+        "text": "1 King Bed"
+      },
+      {
+        "icon": "guests.svg",
+        "text": "3 Guests"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Luxury Premium Suite",
+    "image": "luxury6.jpg",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": "$900/night",
+    "details": [
+      {
+        "icon": "area.svg",
+        "text": "88m²"
+      },
+      {
+        "icon": "bed.svg",
+        "text": "1 King Bed"
+      },
+      {
+        "icon": "guests.svg",
+        "text": "3 Guests"
+      }
+    ]
+  }
+]
