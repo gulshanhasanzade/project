@@ -18,7 +18,7 @@ function Services2() {
       <div className="text-container2">
         <h2>{serviceData[1].title}</h2>
         <p>{serviceData[1].description[0]}</p>
-        <p>{serviceData[1].description[1]}</p>
+        <p id='textP'> {serviceData[1].description[1]}</p>
         <button className="explore-button2">{serviceData[1].buttonText} <img src="right.svg" alt="" /></button>
       </div>
       <div className="image-container2">

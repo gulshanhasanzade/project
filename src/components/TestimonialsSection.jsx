@@ -6,7 +6,7 @@ import testimonialsData from './testimonials.json';
 
 const TestimonialsSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const testimonialsToShow = 3; // Number of testimonials to show at once
+  const testimonialsToShow = 3; 
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + testimonialsToShow) % testimonialsData.length);

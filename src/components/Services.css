@@ -13,13 +13,14 @@
   
   .container1 {
     display: flex;
-    align-items: center !important;
-    justify-content: center !important;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     margin: auto;
     width: 100%;
-    /* height: 90vh; */
+    height: 100vh;
     gap: 72px;
+    padding: 0 20px 0 120px;
   }
   
   .image-container1 {
@@ -45,7 +46,7 @@
   .text-container1 h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    width: 50%;
+    width: 60%;
     color: #070E05;
 /* lg/Bold */
 font-family: "DM Serif Display";
@@ -57,11 +58,10 @@ letter-spacing: -0.96px;
   }
   
   .text-container1 p {
-    width: 85%;
+    width: 72%;
     font-size: 1em;
     line-height: 1.6;
     margin-bottom: 20px;
-
     color: #7B7B7B;
 /* Text md/Regular */
 font-family: Lexend;
@@ -74,7 +74,7 @@ letter-spacing: -0.32px;
   
   .explore-button1 {
     display: flex;
-width: 30%;
+width: 25%;
 align-items: flex-start;
 align-items: center;
 justify-content: center;
