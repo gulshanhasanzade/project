@@ -14,13 +14,12 @@
     display: flex;
     width: 100%;
     padding: 115px 70px;
-    height: 100vh;
-    /* gap: 48px; */
     background: #5F6E5B;
     /* padding: 120px 100px 0 100px; */
     flex-wrap: wrap;
     gap: 30px;
-    flex-direction: column;
+    /* flex-direction: column; */
+    /* max-width: 1350px; */
   }
   
   .services-section h1 {
