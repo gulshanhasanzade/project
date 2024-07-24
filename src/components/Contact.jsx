@@ -1,9 +1,11 @@
 import React from 'react';
 import './Contact.css';
+import Plan from './Plan.jsx';
 
 
 const Contact = () => {
   return (
+    <div>
    <div div className="dining-us-section">
     <div className="dining-us-container">
       <div className="dining-us-background">
@@ -15,6 +17,8 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </div>
+    <Plan />
     </div>
   );
 }
