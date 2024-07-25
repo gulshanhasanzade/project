@@ -30,12 +30,12 @@ const Header = ({ openLoginModal }) => {
           <li><NavLink to="/about">About Us</NavLink></li>
           <li><NavLink to="/dining">Dining</NavLink></li>
           <li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-            <NavLink id='dropDown2' to="/rooms">Rooms <img  src="./dropDown.svg" alt="" /></NavLink>
-            {isDropdownOpen && (
+            <NavLink id='dropDown2' to="/rooms">Rooms </NavLink>
+            {/* {isDropdownOpen && (
               <ul className="dropdown-menu">
                 <li><NavLink to="/rooms/detail">Rooms Detail Page</NavLink></li>
               </ul>
-            )}
+            )} */}
           </li>
           <li><NavLink to="/contact">Contact Us</NavLink></li>
         </ul>
