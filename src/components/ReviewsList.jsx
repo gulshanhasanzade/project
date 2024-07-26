@@ -5,7 +5,7 @@ const reviews = [
   {
     id: 1,
     name: "Alexa Mate",
-    avatar: "Mate.jpg",
+    avatar: "/Mate.jpg",
     rating: 5,
     title: "Fabulous Hotel, I Really Like It 😍",
     review: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
@@ -13,7 +13,7 @@ const reviews = [
   {
     id: 2,
     name: "Johnson Willions",
-    avatar: "Johnson.jpg",
+    avatar: "/Johnson.jpg",
     rating: 5,
     title: "I am very happy with this room and staff behaviour",
     review: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."

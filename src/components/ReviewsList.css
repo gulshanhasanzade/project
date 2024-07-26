@@ -36,7 +36,7 @@
   }
   .review-header {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
   }
   
   .review-avatar {
@@ -44,7 +44,9 @@
     width: 50px;
     height: 50px;
     margin-right: 20px;
+    object-fit: cover;
   }
+  
   #nameId {
     color:  #070E05;
 /* Text md/Bold */
