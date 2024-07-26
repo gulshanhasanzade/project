@@ -1,3 +1,163 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rooms-section {
+  padding: 20px;
+  width: 85%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.rooms-header h1 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #070E05;
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 126%;
+  letter-spacing: -0.96px;
+}
+
+.rooms-header p {
+  margin-bottom: 40px;
+  color: #7B7B7B;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: -0.32px;
+}
+
+.rooms-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.room-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.room-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.room-info {
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+}
+
+.room-info h2 {
+  margin-bottom: 10px;
+  color: #070E05;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.room-info p {
+  margin-bottom: 10px;
+  color: #070E05;
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.room-details {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: #7B7B7B;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.room-detail {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  color: #676767;
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.detail-icon {
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+}
+
+.room-price {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.price-amount {
+  color: #070E05;
+  font-family: 'Lexend', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.price-per-night {
+  color: #070E05;
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.room-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #5F6E5B;
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  border: 1px solid #FFF;
+  transition: ease-in 0.2s;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.room-button img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.room-button:hover {
+  border: 1px solid #5F6E5B;
+  color: #000;
+} */
+
+
+/* export default HotelRooms; */
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
@@ -90,7 +250,7 @@
   letter-spacing: -0.32px;
 }
 
-.room-details {
+.room-details1 {
   display: flex;
   justify-content: flex-start;
   font-size: 14px;
@@ -99,7 +259,7 @@
   width: 100%;
 }
 
-.room-detail {
+.room-detail1 {
   display: flex;
   align-items: center;
   margin-right: 10px;
@@ -114,7 +274,7 @@ line-height: 150%; /* 24px */
 letter-spacing: -0.32px;
 }
 
-.detail-icon {
+.detail-icon1 {
   margin-right: 5px;
   width: 24px !important;
   height: 24px !important;

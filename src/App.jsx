@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -13,40 +14,36 @@ import LoginModal from './components/LoginModal';
 import CreateAccountModal from './components/CreateAccountModal';
 import SuccessMessageModal from './components/SuccessMessageModal';
 import Details from './components/Details';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HotelRooms from './components/HotelRooms';
+import PremiumSuite from './components/PremiumSuite';
+import DeluxeSuite from './components/DeluxeSuite';
+
 import './App.css';
 
 const App = () => {
+  // Modal pəncərələr üçün vəziyyətlər
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [showCreateAccountModal, setShowCreateAccountModal] = useState(false);
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
+  // Modal pəncərələri bağlama funksiyası
   const closeModal = () => {
     setShowLoginModal(false);
     setShowCreateAccountModal(false);
     setShowSuccessMessage(false);
   };
 
-  const openLoginModal = () => {
-    setShowLoginModal(true);
-  };
-
-  const openCreateAccountModal = () => {
-    setShowLoginModal(false);
-    setShowCreateAccountModal(true);
-  };
-
-  const showSuccess = () => {
-    setShowCreateAccountModal(false);
-    setShowSuccessMessage(true);
-  };
+  // Modal pəncərələri açma funksiyaları
+  const openLoginModal = () => setShowLoginModal(true);
+  const openCreateAccountModal = () => setShowCreateAccountModal(true);
+  const showSuccess = () => setShowSuccessMessage(true);
 
   return (
     <Router>
       <div className="App">
         <Header openLoginModal={openLoginModal} />
         <Routes>
-          <Route path="/" element={<Home openLoginModal={openLoginModal} />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/dining" element={<Dining />} />
           <Route path="/rooms" element={<Rooms />} />
@@ -54,6 +51,9 @@ const App = () => {
           <Route path="/events" element={<Events />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/details" element={<Details />} />
+          <Route path="/hotel-rooms" element={<HotelRooms />} />
+          <Route path="/room/:id" element={<PremiumSuite />} />
+          <Route path="/deluxe-suite" element={<DeluxeSuite />} />
         </Routes>
         <Footer />
         {showLoginModal && <LoginModal closeModal={closeModal} openCreateAccountModal={openCreateAccountModal} />}
@@ -65,4 +65,3 @@ const App = () => {
 };
 
 export default App;
-

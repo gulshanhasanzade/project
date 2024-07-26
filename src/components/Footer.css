@@ -50,7 +50,6 @@ font-style: normal;
 font-weight: 300;
 line-height: 150%; /* 24px */
 letter-spacing: -0.32px;
-
 }
 
 .footer-logo1>h2{
@@ -117,6 +116,7 @@ font-style: normal;
 font-weight: 300;
 line-height: 150%; /* 24px */
 letter-spacing: -0.32px;
+
   }
   .footer2Icons{ 
      display: flex;

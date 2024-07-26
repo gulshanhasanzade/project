@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './HotelRooms.css';
+import { Link } from 'react-router-dom';
 
 const HotelRooms = () => {
   const roomsData = [
@@ -92,10 +93,10 @@ const HotelRooms = () => {
               <img src={room.image} alt={room.title} />
               <div className="room-info">
                 <h2>{room.title}</h2>
-                <div className="room-details">
+                <div className="room-details1">
                   {room.details.map((detail, index) => (
-                    <span key={index} className="room-detail">
-                      <img src={detail.icon} alt="" className="detail-icon" />
+                    <span key={index} className="room-detail1">
+                      <img src={detail.icon} alt="" className="detail-icon1" />
                       {detail.text}
                     </span>
                   ))}
@@ -105,7 +106,7 @@ const HotelRooms = () => {
                   <span className="price-amount">{price}</span>
                   <span className="price-per-night">/{perNight}</span>
                 </div>
-                <a href="#" className="room-button">Discover More <img src="./right.svg" alt="" /></a>
+                <Link to={`/room/${room.id}`} className="room-button">Discover More <img src="./right.svg" alt="" /></Link>
               </div>
             </div>
           );
