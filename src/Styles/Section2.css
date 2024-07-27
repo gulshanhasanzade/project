@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+  
+  .App3 {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    max-width: 1400px;
+    margin: auto;
+    gap: 117px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .suite-info {
+    width: 65%;
+  }
+  .booking-summary{
+    width: 28%;
+  }
+  #title7{
+    color:  #070E05;
+/* lg/Bold */
+font-family: "DM Serif Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 126%; /* 60.48px */
+letter-spacing: -0.96px;
+  }
+  .suite-info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .suite-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: flex-start;
+  }
+  
+  .suite-detail {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  #details7{
+    color:  #676767;
+/* Text md/Regular */
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+  }
+
+  #description7{
+    color:  #070E05;
+/* Text md/Regular */
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+}
+
+#title8{
+  color:  #070E05;
+/* Text md/Medium */
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+}
+#description8{
+  color:  #7B7B7B;
+/* Text sm/Regular */
+font-family: Lexend;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 140%; /* 19.6px */
+letter-spacing: -0.28px;
+}
+#feature1{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+#icons8{
+  width: 30px;
+  height: 30px;
+ 
+}
+.line3{
+  height: 1px;
+  width: 98%;
+  border: 1px solid #DFDFDF;
+  margin: 20px 0;
+}
+#title9{
+  color:  #070E05;
+/* xs/Bold */
+font-family: Lexend;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 132%; /* 31.68px */
+letter-spacing: -0.48px;
+}
+#icons9{
+  width: 30px;
+  height: 30px;
+}
+#details9{
+  color:  #070E05;
+/* Text md/Regular */
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+}
+
+  .suite-features li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+
+.suite-amenities li{
+  display: flex;
+
+}
+
+.suite-amenities {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+  .suite-features img, .suite-amenities img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+
+
+  #showButton3 {
+    padding: 12px 20px;
+    cursor: pointer;
+    background: #FFF;
+    border:  1px solid #5F6E5B;
+    color: #5F6E5B;
+text-align: center;
+/* Text md/Regular */
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+margin: 10px 0;
+  }
+  
+  #showButton3:hover {
+    background-color: #5F6E5B;
+    color: #FFF;
+    transition: ease-in 0.2s;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .booking-summary {
+    padding: 20px;
+    background:  #FFF;
+    box-shadow: 0px 32px 64px -12px rgba(0, 0, 0, 0.14);
+    height: 82vh;
+    gap: 10px;
+  }
+  
+  .booking-summary h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .booking-summary form {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .booking-summary form .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .booking-summary form label {
+    flex: 1;
+    margin: 0 5px;
+  }
+  
+  .booking-summary form input,
+  .booking-summary form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .booking-summary button {
+    width: 100%;
+    padding: 15px;
+    background-color: #5F6E5B;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .booking-summary button:hover {
+  
+  }
+  
+  .price-details {
+    font-size: 0.9em;
+  }
+  
+  .price-details p {
+    margin: 5px 0;
+  }
+  
+  .price-details h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #333;
+  }
+  
