@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import './ExclusiveExperience.css';
+import '../Styles/ExclusiveExperience.css';
 
 const ExclusiveExperience = () => {
   return (

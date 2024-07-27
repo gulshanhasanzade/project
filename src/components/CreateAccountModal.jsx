@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './CreateAccountModal.css';
+import '../Styles/CreateAccountModal.css';
 
 const CreateAccountModal = ({ closeModal, showSuccessMessage }) => {
   const handleSubmit = (event) => {

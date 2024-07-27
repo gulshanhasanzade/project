@@ -1,5 +1,5 @@
 import React from 'react';
-import './CenterImage.css';
+import '../Styles/CenterImage.css';
 
 const Restaurant = () => {
   return ( 

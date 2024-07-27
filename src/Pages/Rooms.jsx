@@ -1,6 +1,6 @@
 import React from 'react';
-import './Rooms.css';
-import HotelRooms from './HotelRooms';
+import '../Styles/Rooms.css';
+import HotelRooms from '../components/HotelRooms';
 
 const Rooms = () => {
 

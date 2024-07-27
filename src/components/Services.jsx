@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import './Services.css';
-import data from './data.json'; 
+import '../Styles/Services.css';
+import data from '../json/data.json'; 
 function Services() {
   const [serviceData, setServiceData] = useState(null);
 

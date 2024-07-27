@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import './Plan.css';
+import '../Styles/Plan.css';
 
 const Plan = () => {
   return (

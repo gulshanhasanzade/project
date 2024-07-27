@@ -1,6 +1,6 @@
 import React from 'react';
-import content from './content.json';
-import './LuxuryHotel.css';
+import content from '../json/content.json';
+import '../Styles/LuxuryHotel.css';
 
 const LuxuryHotel = () => {
   return (

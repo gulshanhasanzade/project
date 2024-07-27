@@ -1,8 +1,8 @@
 
 
 import React from 'react';
-import content from './suitesContent.json';
-import './Suites1.css';
+import content from '../json/suitesContent.json';
+import '../Styles/Suites1.css';
 
 const Suites = () => {
   return (

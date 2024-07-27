@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './Header';
-import LuxuryHotel from './LuxuryHotel';
-import CuisineExperience from './CuisineExperience';
-import Suites from './Suites';
-import LuxurySection from './LuxurySection';
-import ServicesSection from './ServicesSection';
-import TestimonialsSection from './TestimonialsSection'; 
-import GallerySection from './GallerySection';
-import './Home.css';
+import Header from '../components/Header';
+import LuxuryHotel from '../components/LuxuryHotel';
+import CuisineExperience from '../components/CuisineExperience';
+import Suites from '../components/Suites';
+import LuxurySection from '../components/LuxurySection';
+import ServicesSection from '../components/ServicesSection';
+import TestimonialsSection from '../components/TestimonialsSection'; 
+import GallerySection from '../components/GallerySection';
+import '../Styles/Home.css';
 
 export default function Home({ openLoginModal }) {
   return (

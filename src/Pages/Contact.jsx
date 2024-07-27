@@ -1,6 +1,6 @@
 import React from 'react';
-import './Contact.css';
-import Plan from './Plan.jsx';
+import '../Styles/Contact.css';
+import Plan from '../components/Plan.jsx';
 
 
 const Contact = () => {

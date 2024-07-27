@@ -1,6 +1,6 @@
 import React from 'react';
-import './LuxurySection.css';
-import luxuryData from './data2.json';
+import '../Styles/LuxurySection.css';
+import luxuryData from '../json/data2.json';
 
 const LuxurySection = () => {
   return (

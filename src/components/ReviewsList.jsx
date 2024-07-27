@@ -1,5 +1,5 @@
 import React from 'react';
-import './ReviewsList.css';
+import '../Styles/ReviewsList.css';
 
 const reviews = [
   {

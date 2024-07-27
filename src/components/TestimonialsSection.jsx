@@ -1,8 +1,8 @@
 
 
 import React, { useState } from 'react';
-import './TestimonialsSection.css';
-import testimonialsData from './testimonials.json';
+import '../Styles/TestimonialsSection.css';
+import testimonialsData from '../json/testimonials.json';
 
 const TestimonialsSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

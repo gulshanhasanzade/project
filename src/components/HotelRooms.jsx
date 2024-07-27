@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './HotelRooms.css';
+import '../Styles/HotelRooms.css';
 import { Link } from 'react-router-dom';
 
 const HotelRooms = () => {

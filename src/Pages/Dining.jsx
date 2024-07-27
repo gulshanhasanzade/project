@@ -1,8 +1,8 @@
 import React from 'react';
-import './Dining.css';
-import Restaurant from './Restaurant';
-import CenterImage from './CenterImage';
-import Restaurant2 from './Restaurant2';
+import '../Styles/Dining.css';
+import Restaurant from '../components/Restaurant';
+import CenterImage from '../components/CenterImage';
+import Restaurant2 from '../components/Restaurant2';
 
 const Dining = () => {
   return (

@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import './LoginModal.css';
+import '../Styles/LoginModal.css';
 
 const LoginModal = ({ closeModal, openCreateAccountModal }) => {
   return (

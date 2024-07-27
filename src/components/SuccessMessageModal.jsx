@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import './SuccessMessageModal.css';
+import '../Styles/SuccessMessageModal.css';
 
 const SuccessMessageModal = ({ closeModal }) => {
   return (

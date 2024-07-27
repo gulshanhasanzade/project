@@ -1,6 +1,6 @@
 import React from 'react';
-import './ServicesSection.css';
-import servicesData from './servicesData.json';
+import '../Styles/ServicesSection.css';
+import servicesData from '../json/servicesData.json';
 
 const ServicesSection = () => {
   return (

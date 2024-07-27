@@ -1,5 +1,5 @@
 import React from 'react';
-import './PremiumSuite.css';
+import '../Styles/PremiumSuite.css';
 import Premium1 from './Premium1';
 import ReviewsList  from './ReviewsList';
 

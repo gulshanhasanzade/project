@@ -1,10 +1,10 @@
 import React from 'react';
-import './About.css';
-import ServicesSection from './ServicesSection';
-import TestimonialsSection from './TestimonialsSection';
-import ExclusiveExperience from './ExclusiveExperience';
-import Services from './Services';
-import Services2 from './Services2';
+import '../Styles/About.css';
+import ServicesSection from '../components/ServicesSection';
+import TestimonialsSection from '../components/TestimonialsSection';
+import ExclusiveExperience from '../components/ExclusiveExperience';
+import Services from '../components/Services';
+import Services2 from '../components/Services2';
 
 const About = () => {
   return (

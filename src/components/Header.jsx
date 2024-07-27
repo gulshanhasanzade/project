@@ -1,7 +1,7 @@
 
 
 import React, { useState } from 'react';
-import './Header.css';
+import '../Styles/Header.css';
 import { NavLink } from 'react-router-dom';
 import LoginModal from './LoginModal';
 

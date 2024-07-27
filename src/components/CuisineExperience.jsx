@@ -1,6 +1,6 @@
 import React from 'react';
-import content from './cuisineContent.json';
-import './CuisineExperience.css';
+import content from '../json/cuisineContent.json';
+import '../Styles/CuisineExperience.css';
 
 const CuisineExperience = () => {
   return (

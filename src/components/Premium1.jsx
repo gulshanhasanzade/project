@@ -1,5 +1,5 @@
 import React from 'react';
-import './Premium1.css';
+import '../Styles/Premium1.css';
 
 const roomData = {
   features: [

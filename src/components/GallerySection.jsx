@@ -1,7 +1,7 @@
 
 import React from 'react';
-import './GallerySection.css';
-import galleryData from './gallery2.json';
+import '../Styles/GallerySection.css';
+import galleryData from '../json/gallery2.json';
 
 const GallerySection = () => {
   return (
