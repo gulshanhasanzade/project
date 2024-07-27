@@ -13,9 +13,8 @@ import Gallery from './components/Gallery';
 import LoginModal from './components/LoginModal';
 import CreateAccountModal from './components/CreateAccountModal';
 import SuccessMessageModal from './components/SuccessMessageModal';
-import Details from './components/Details';
 import HotelRooms from './components/HotelRooms';
-import PremiumSuite from './components/PremiumSuite';
+import PremiumSuite from './Pages/PremiumSuite';
 import DeluxeSuite from './components/DeluxeSuite';
 
 import './App.css';
@@ -50,7 +49,6 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/events" element={<Events />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/details" element={<Details />} />
           <Route path="/hotel-rooms" element={<HotelRooms />} />
           <Route path="/room/:id" element={<PremiumSuite />} />
           <Route path="/deluxe-suite" element={<DeluxeSuite />} />

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styles/PremiumSuite.css';
-import Premium1 from './Premium1';
-import ReviewsList  from './ReviewsList';
+import Premium1 from '../components/Premium1';
+import ReviewsList  from '../components/ReviewsList';
 
 const roomData = {
   id: 3,
