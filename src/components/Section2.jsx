@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../Styles/Section2.css';
 
 const data = {
@@ -44,6 +44,10 @@ const App = () => {
   const [adults, setAdults] = useState(2);
   const [children, setChildren] = useState(1);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const totalCost = (data.booking.pricePerNight * data.booking.nights) - data.booking.discount + data.booking.fees;
 
   return (
@@ -68,17 +72,15 @@ const App = () => {
               <div id='feature1'>
                 <h2 id='title8'>{feature.title}</h2>
                 <p id='description8'>{feature.description}</p>
-              </div>
-              
-            </li>
-            
+              </div>   
+            </li>  
           ))}
         </ul>
         <div className="line3"></div>
         <h3 id='title9'>What This Place Offers</h3>
         <ul className="suite-amenities">
           {data.amenities.map((amenity, index) => (
-            <li key={index}>
+            <li id ='amenity1' key={index}>
               <img id='icons9' src={amenity.icon} alt={amenity.name} />
               <span id='details9'>{amenity.name}</span>
             </li>
@@ -89,47 +91,49 @@ const App = () => {
       </section>
 
       <section className="booking-summary">
-        <h2>
+        <h2 id='price6'>
           ${data.booking.pricePerNight}
           <span className="price-unit">/night</span>
         </h2>
         <form>
-          <label>CheckIn
-            <input type="date" value={checkIn} onChange={(e) => setCheckIn(e.target.value)} />
+          <label id='labels1'>CheckIn
+            <input id='selects3' type="date" value={checkIn} onChange={(e) => setCheckIn(e.target.value)} />
           </label>
-          <label>CheckOut
-            <input type="date" value={checkOut} onChange={(e) => setCheckOut(e.target.value)} />
+          <label id='labels1'>CheckOut
+            <input id='selects3' type="date" value={checkOut} onChange={(e) => setCheckOut(e.target.value)} />
           </label>
           <div className="form-group">
-            <label>Rooms
-              <select value={rooms} onChange={(e) => setRooms(e.target.value)}>
+            <label id='labels1'>Rooms
+              <select id='selects3' value={rooms} onChange={(e) => setRooms(e.target.value)}>
                 <option value={1}>1 Room</option>
                 <option value={2}>2 Rooms</option>
               </select>
             </label>
           </div>
           <div className="form-group">
-            <label>Adults
-              <select value={adults} onChange={(e) => setAdults(e.target.value)}>
+            <label id='labels1'>Adults
+              <select id='selects3' value={adults} onChange={(e) => setAdults(e.target.value)}>
                 <option value={1}>1 Adult</option>
                 <option value={2}>2 Adults</option>
               </select>
             </label>
-            <label>Child
-              <select value={children} onChange={(e) => setChildren(e.target.value)}>
+            <label id='labels1'>Child
+              <select id='selects3' value={children} onChange={(e) => setChildren(e.target.value)}>
                 <option value={0}>0 Children</option>
                 <option value={1}>1 Child</option>
                 <option value={2}>2 Children</option>
+                <option value={3}>3 Children</option>
               </select>
             </label>
           </div>
-          <button type="submit">Book Now</button>
+          <button id='bookButton2' type="submit">Book Now</button>
         </form>
         <div className="price-details">
-          <p>${data.booking.pricePerNight} x {data.booking.nights} nights: ${data.booking.pricePerNight * data.booking.nights}</p>
-          <p>Discount: -${data.booking.discount}</p>
-          <p>Occupancy taxes and fees: ${data.booking.fees}</p>
-          <h3>Grand Total: ${totalCost}</h3>
+          <p className="price-item"><span id='title10'>${data.booking.pricePerNight} x {data.booking.nights} nights</span><span id='title10'>${data.booking.pricePerNight * data.booking.nights}</span></p>
+          <p className="price-item"><span id='title10'>Discount</span><span className="discount">-${data.booking.discount}</span></p>
+          <p className="price-item"><span id='title10'>Occupancy taxes and fees</span><span id='title10'>${data.booking.fees}</span></p>
+          <div className="line5"></div>
+          <h3 className="total"><span id='title11'>Grand Total</span><span id='title11'>${totalCost}</span></h3>
         </div>
       </section>
     </div>

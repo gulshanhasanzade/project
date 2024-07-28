@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.similar-suites {
+  width: 100%;
+  position: relative; 
+  margin-top: 100px;
+}
+
+.similar-suites h2 {
+  color:  #070E05;
+font-family: "DM Serif Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 126%; /* 60.48px */
+letter-spacing: -0.96px;
+}
+
+.suites-container {
+  display: flex;
+  gap: 20px;
+  overflow: hidden; 
+  margin-top: 64px;
+}
+#title14{
+    margin: 15px 0;
+}
+.suites-container.scrollable {
+  overflow-x: auto; 
+}
+#title15{
+    color:  #676767;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+}
+#title16{
+    color:  #070E05;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px; 
+}
+.suite-card2 {
+  flex: 0 0 420px;
+  display: inline-flex;
+  flex-direction: column;
+  /* padding: 15px; */
+  background: #fff;
+}
+
+.suite-card2 h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.suite-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.suite-detail {
+  display: flex;
+  align-items: center;
+}
+
+.suite-detail img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.suite-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.discover-more {
+    color:  #5F6E5B;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 7px 7px 0;
+    border: 1px solid #FFF;
+    width: 35%;
+}
+.discover-more:hover{
+    border: 1px solid #5F6E5B;
+}
+.discover-more img{
+    width: 24px;
+    height: 24px;
+}
+.discover-all {
+  background-color: #FFF;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #5F6E5B;
+  justify-content: center;
+  position: absolute; 
+  top: 7px; 
+  right: 0; 
+  color:  #5F6E5B;
+text-align: center;
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+}
+
+.discover-all:hover {
+    background-color: #5F6E5B;
+    color: #FFF;
+    transition: ease-in 0.2s;
+}

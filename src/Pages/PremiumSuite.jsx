@@ -1,9 +1,9 @@
 
 import React from 'react';
 import '../Styles/PremiumSuite.css';
-
 import Section2 from '../components/Section2';
 import ReviewsList from '../components/ReviewsList';
+import Section3 from '../components/Section3';
 
 
 const roomData = {
@@ -28,8 +28,8 @@ const PremiumSuite = () => {
         </div>
       </div>
       < Section2 />
-       {/* <Premium1 /> */}
       <ReviewsList /> 
+      <Section3 />
     </div>
   );
 };
