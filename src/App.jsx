@@ -15,7 +15,12 @@ import CreateAccountModal from './components/CreateAccountModal';
 import SuccessMessageModal from './components/SuccessMessageModal';
 import HotelRooms from './components/HotelRooms';
 import PremiumSuite from './Pages/PremiumSuite';
-import DeluxeSuite from './components/DeluxeSuite';
+import Deluxe from './components/Deluxe';
+import Grande from './components/Grande';
+import Studio from './components/Studio';
+import Sea from './components/Sea';
+import Premium from './components/Premium';
+
 
 import './App.css';
 
@@ -50,8 +55,13 @@ const App = () => {
           <Route path="/events" element={<Events />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/hotel-rooms" element={<HotelRooms />} />
-          <Route path="/room/:id" element={<PremiumSuite />} />
-          <Route path="/deluxe-suite" element={<DeluxeSuite />} />
+          <Route path="/room/3" element={<PremiumSuite />} />
+          <Route path="/room/1" element={<Deluxe />} />
+          <Route path="/room/2" element={<Grande />} />
+          <Route path="/room/4" element={<Studio />} />
+          <Route path="/room/5" element={<Sea />} />
+          <Route path="/room/6" element={<Premium />} />
+          
         </Routes>
         <Footer />
         {showLoginModal && <LoginModal closeModal={closeModal} openCreateAccountModal={openCreateAccountModal} />}

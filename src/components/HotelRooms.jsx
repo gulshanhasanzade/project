@@ -80,6 +80,7 @@ const HotelRooms = () => {
 
   return (
     <div className="rooms-section">
+      <div className="rooms-container3">
       <div className="rooms-header">
         <h1>Explore Our Refined Accommodation Option <br />And Find The Perfect Space For Your Stay.</h1>
         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point  <br />of using Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -108,9 +109,12 @@ const HotelRooms = () => {
                 </div>
                 <Link to={`/room/${room.id}`} className="room-button">Discover More <img src="./right.svg" alt="" /></Link>
               </div>
+              
             </div>
+           
           );
         })}
+      </div>
       </div>
     </div>
   );

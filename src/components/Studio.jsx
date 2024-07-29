@@ -1,16 +1,14 @@
-
 import React from 'react';
 import '../Styles/Sea.css';
-import Section2 from '../components/Section2';
+import Section6 from '../components/Section6';
 import ReviewsList from '../components/ReviewsList';
 import Section3 from '../components/Section3';
 
-
 const roomData = {
-  id: 3,
-  title: "Premium Suite",
+  id: 4,
+  title: "Studio Apartment City View",
   images: [
-    "/luxury3.jpg",
+    "/luxury4.jpg",
     "/bathroom.jpg",
     "/sofa.jpg"
   ]
@@ -27,7 +25,7 @@ const PremiumSuite = () => {
           ))}
         </div>
       </div>
-      <Section2 />
+      <Section6 />
       <ReviewsList /> 
       <Section3 />
     </div>
