@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles/Section7.css';
+import { Link } from 'react-router-dom';
 
 const data = {
   suite: {
@@ -126,7 +127,7 @@ const App = () => {
               </select>
             </label>
           </div>
-          <button id='bookButton2' type="submit">Book Now</button>
+          <Link to="/booking-page" id='bookButton2' className="book-now-link">Book Now</Link>
         </form>
         <div className="price-details">
           <p className="price-item"><span id='title10'>${data.booking.pricePerNight} x {data.booking.nights} nights</span><span id='title10'>${data.booking.pricePerNight * data.booking.nights}</span></p>

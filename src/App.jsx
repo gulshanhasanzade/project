@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
@@ -20,24 +19,20 @@ import Grande from './components/Grande';
 import Studio from './components/Studio';
 import Sea from './components/Sea';
 import Premium from './components/Premium';
-
-
+import BookingPage from './components/BookingPage';
 import './App.css';
 
 const App = () => {
-  // Modal pəncərələr üçün vəziyyətlər
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [showCreateAccountModal, setShowCreateAccountModal] = useState(false);
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
-  // Modal pəncərələri bağlama funksiyası
   const closeModal = () => {
     setShowLoginModal(false);
     setShowCreateAccountModal(false);
     setShowSuccessMessage(false);
   };
 
-  // Modal pəncərələri açma funksiyaları
   const openLoginModal = () => setShowLoginModal(true);
   const openCreateAccountModal = () => setShowCreateAccountModal(true);
   const showSuccess = () => setShowSuccessMessage(true);
@@ -61,7 +56,7 @@ const App = () => {
           <Route path="/room/4" element={<Studio />} />
           <Route path="/room/5" element={<Sea />} />
           <Route path="/room/6" element={<Premium />} />
-          
+          <Route path="/booking-page" element={<BookingPage />} /> 
         </Routes>
         <Footer />
         {showLoginModal && <LoginModal closeModal={closeModal} openCreateAccountModal={openCreateAccountModal} />}
