@@ -127,7 +127,7 @@ const App = () => {
               </select>
             </label>
           </div>
-          <Link to="/booking-page" id='bookButton2' className="book-now-link">Book Now</Link>
+          <Link to="/booking-page6" id='bookButton2' className="book-now-link">Book Now</Link>
         </form>
         <div className="price-details">
           <p className="price-item"><span id='title10'>${data.booking.pricePerNight} x {data.booking.nights} nights</span><span id='title10'>${data.booking.pricePerNight * data.booking.nights}</span></p>

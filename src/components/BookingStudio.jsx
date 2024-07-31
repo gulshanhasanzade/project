@@ -12,9 +12,9 @@ const BookingPage = () => {
     dates: 'Nov 16 - 18',
     guests: '2 Adults, 1 Child',
     priceDetails: {
-      nights: 3,
-      pricePerNight: 500,
-      discount: 50,
+      nights: 2,
+      pricePerNight: 850,
+      discount: 70,
       taxes: 18,
       total: 0 
     },

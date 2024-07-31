@@ -49,7 +49,10 @@
 .booking-details, 
 .payment-method {
   margin-bottom: 20px;
-  padding: 20px 0;
+  padding: 10px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   background-color: #fff;
   border-bottom: 1px solid #ccc;
 }
@@ -92,6 +95,8 @@ letter-spacing: -0.32px;
   justify-content: space-between;
 }
 
+
+
 .booking-item {
   display: flex;
   justify-content: space-between;
@@ -99,13 +104,154 @@ letter-spacing: -0.32px;
   margin-bottom: 10px;
 }
 
+#payment{
+  color:  #070E05;
+/* xs/Bold */
+font-family: Lexend;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 132%; /* 31.68px */
+letter-spacing: -0.48px;
+
+}
+
+
+.payment-method input[type="radio"]{
+  accent-color: #5F6E5B;
+  width: 24px;
+  height: 24px;
+}
+
+.payment-description {
+  color:  #070E05;
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+  margin: 7px 0;
+}
+.description{
+  color:  #A1A1A1;
+font-family: Lexend;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 140%; /* 19.6px */
+letter-spacing: -0.28px;
+}
+
+
+.payment-description::placeholder{
+  color:  #070E05;
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+}
+
+.credit-card-info{
+  margin: 25 px 0;
+}
+
+.mail7 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+  justify-content: space-between;
+}
+#mail8{
+  display: flex;
+  flex-direction: column;
+}
+
+.billing-address label{
+  flex: 1;
+}
+.cancellation-policy{
+  margin: 15px 0;
+}
+#cancellation{
+  margin-top: 10px;
+}
+.cancellation-policy p{
+  color:  #A1A1A1;
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+}
+.learn-more-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color:  #070E05;
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%;
+letter-spacing: -0.32px;
+}
+.confirm-pay-button {
+  width: 25%;
+  padding: 15px;
+  background-color: #5F6E5B;
+  border: 1px solid #5F6E5B;
+  cursor: pointer;
+  color:  #FFF;
+text-align: center;
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+margin-top: 30px;
+}
+.confirm-pay-button:hover{
+  background-color: #fff;
+  color: #5F6E5B;
+  transition: ease-in 0.2s;
+}
+.discount0{
+  color:  #22C55E;
+text-align: right;
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+}
+
+#hr0{
+  margin-top: 10px;
+  background: #DFDFDF;
+}
+#grandTotal{
+  color: #070E05;
+font-family: Lexend;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 155%; /* 27.9px */
+letter-spacing: -0.36px;
+}
+
+
 .booking-item-content {
   flex-grow: 1;
 }
 
-.booking-item label {
-  font-weight: bold;
-}
 
 .booking-item input[type="text"] {
   border: 1px solid #ccc;
@@ -136,110 +282,97 @@ letter-spacing: -0.32px;
   margin-top: 5px;
 }
 
-.credit-card-info label,
-.billing-address label {
-  margin-bottom: 15px;
-}
+
 
 .credit-card-info input[type="text"], 
 .billing-address input[type="text"], 
+.billing-address input[type="email"],
 .billing-address select {
   margin-top: 5px;
   padding: 10px;
   width: 100%;
-  font-size: 14px;
   border: 1px solid #ccc;
-  border-radius: 4px;
 }
+
+
 
 .card-expiry-cvv {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 16px;
 }
 
 .card-expiry-cvv label {
   flex: 1;
 }
 
-.cancellation-policy p {
-  margin: 0;
-}
-
-.confirm-pay-button {
-  width: 100%;
-  padding: 15px;
-  background-color: #5F6E5B;
-  color: white;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-}
 
 .summary-box {
   flex: 1;
   padding: 20px;
   background-color: #fff;
-  height: 80vh;
+  height: 72vh;
   box-shadow: 0px 32px 64px -12px rgba(0, 0, 0, 0.14);
 }
 
 .summary-box img {
   width: 100%;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
-.price-summary {
-  text-align: right;
-}
-
-.price-summary h3 {
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
-.price-summary p {
-  margin: 5px 0;
-}
-
-.total-price {
-  font-weight: bold;
-  color: #333;
-}
-
-.learn-more-button {
-  background: none;
-  border: none;
-  color: #007bff;
-  cursor: pointer;
-  padding: 0;
-  font: inherit;
-  text-decoration: underline;
-}
-
-.learn-more-button:hover {
-  text-decoration: none;
-}
-
-.payment-option {
+ 
+.price-row{
   display: flex;
   justify-content: space-between;
 }
-
-.mail7 {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: space-between;
-}
-
-#mailInput {
-  display: block;
-}
-
 .threeInput {
   display: flex;
   justify-content: space-between;
+  gap: 16px;
+}
+
+
+.threeInput select{
+  margin-top: 5px;
+  padding: 11px 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  color:  #070E05;
+/* Text md/Regular */
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+}
+
+/* 
+#successBTN2 {
+  display: block; 
+  width: 100%;
+  padding: 16px;
+  background: #5F6E5B;
+  border: none;
+  color: #FFF;
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 10px; 
+  border: 1px solid #5F6E5B;
+  outline: none;
+} */
+
+/* 
+#successBTN2:hover{
+   background: #FFF;
+   color: #5F6E5B;
+   transition: ease-in 0.2s;
 }
 
 .confirmation-modal {
@@ -253,43 +386,45 @@ letter-spacing: -0.32px;
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
   z-index: 1000;
-}
-
+} */
+/* 
 .modal-content {
-  background: white;
-  padding: 30px;
-  border-radius: 8px;
-  text-align: center;
   display: flex;
   flex-direction: column;
-}
-#successPng{
-    width: 50px;
-    height: 50px;
-}
-.modal-content h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.modal-content p {
-  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 10px 40px -4px rgba(16, 24, 40, 0.02), 0px 8px 8px -4px rgba(16, 24, 40, 0.02);
+  padding:  15px;
+  width: 90%; 
+  max-width: 400px; 
+  text-align: center;
 }
 
-.modal-content button {
-  margin: 5px;
-  padding: 10px 20px;
-  background-color: #5F6E5B;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
+#successSvg {
+  width: 108px;
+  height: 108px;
+} */
+
+/* #confirmed0 {
+  color: #070E05;
+  font-family: Lexend;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 16px 0; 
 }
 
-.modal-content button:hover {
-  background-color: #4e5e4c;
-}
-.price-row{
-    display: flex;
-    justify-content: space-between;
-}
+#confirmed1 {
+  color: #A1A1A1;
+  font-family: Lexend;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 0 0 24px 0; 
+} */
+
+
+
+

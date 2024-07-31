@@ -13,7 +13,7 @@ const BookingPage = () => {
     guests: '2 Adults, 1 Child',
     priceDetails: {
       nights: 3,
-      pricePerNight: 500,
+      pricePerNight: 900,
       discount: 50,
       taxes: 18,
       total: 0 

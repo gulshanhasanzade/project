@@ -20,6 +20,11 @@ import Studio from './components/Studio';
 import Sea from './components/Sea';
 import Premium from './components/Premium';
 import BookingPage from './components/BookingPage';
+import BookingDeluxe from './components/BookingDeluxe';
+import BookingLuxury from './components/BookingLuxury';
+import BookingStudio from './components/BookingStudio';
+import BookingRoyal from './components/BookingRoyal';
+import BookingPremium from './components/BookingPremium';
 import './App.css';
 
 const App = () => {
@@ -56,7 +61,12 @@ const App = () => {
           <Route path="/room/4" element={<Studio />} />
           <Route path="/room/5" element={<Sea />} />
           <Route path="/room/6" element={<Premium />} />
-          <Route path="/booking-page" element={<BookingPage />} /> 
+          <Route path="/booking-page3" element={<BookingPage />} />
+          <Route path="/booking-page1" element={<BookingDeluxe />} />
+          <Route path="/booking-page2" element={<BookingLuxury />} />
+          <Route path="/booking-page4" element={<BookingStudio />} />
+          <Route path="/booking-page5" element={<BookingRoyal />} />
+          <Route path="/booking-page6" element={<BookingPremium />} />
         </Routes>
         <Footer />
         {showLoginModal && <LoginModal closeModal={closeModal} openCreateAccountModal={openCreateAccountModal} />}
