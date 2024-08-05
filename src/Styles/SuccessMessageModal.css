@@ -19,10 +19,10 @@
     background: rgba(0, 0, 0, 0.2);
     z-index: 999;
   }
-  /* .success-icon{
+  .success-icon{
     width: 110px;
     height: 100px;
-  } */
+  }
 
   .success-message-modal {
     position: fixed;
