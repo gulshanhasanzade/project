@@ -1,5 +1,5 @@
+// Home.jsx
 import React from 'react';
-import Header from '../components/Header';
 import LuxuryHotel from '../components/LuxuryHotel';
 import CuisineExperience from '../components/CuisineExperience';
 import Suites from '../components/Suites';
@@ -9,11 +9,10 @@ import TestimonialsSection from '../components/TestimonialsSection';
 import GallerySection from '../components/GallerySection';
 import '../Styles/Home.css';
 
-export default function Home({ openLoginModal }) {
+const Home = () => {
   return (
     <div className='home'>
-      <Header openLoginModal={openLoginModal} />
-       <div className="hero-container">
+      <div className="hero-container">
         <div className="hero-section">
           <h1>Find Perfect Vacation With Seasons Heritage</h1>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
@@ -34,14 +33,16 @@ export default function Home({ openLoginModal }) {
           </div>
           <button className="check-availability-button">Check Availability</button>
         </div>
-       </div> 
+      </div> 
       <LuxuryHotel />
       <CuisineExperience />
-      <Suites/>
-      <LuxurySection/>
-      <ServicesSection/>
+      <Suites />
+      <LuxurySection />
+      <ServicesSection />
       <TestimonialsSection /> 
       <GallerySection />
     </div>
   );
-}
+};
+
+export default Home;

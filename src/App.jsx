@@ -1,3 +1,4 @@
+// App.jsx
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
@@ -38,16 +39,24 @@ const App = () => {
     setShowSuccessMessage(false);
   };
 
-  const openLoginModal = () => setShowLoginModal(true);
-  const openCreateAccountModal = () => setShowCreateAccountModal(true);
-  const showSuccess = () => setShowSuccessMessage(true);
+  const openLoginModal = () => {
+    setShowLoginModal(true);
+  };
+
+  const openCreateAccountModal = () => {
+    setShowCreateAccountModal(true);
+  };
+
+  const showSuccess = () => {
+    setShowSuccessMessage(true);
+  };
 
   return (
     <Router>
       <div className="App">
         <Header openLoginModal={openLoginModal} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home openLoginModal={openLoginModal} />} />
           <Route path="/about" element={<About />} />
           <Route path="/dining" element={<Dining />} />
           <Route path="/rooms" element={<Rooms />} />

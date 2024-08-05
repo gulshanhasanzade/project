@@ -1,25 +1,21 @@
-
-
+// Header.jsx
 import React, { useState } from 'react';
+import { NavLink, useNavigate } from 'react-router-dom';
 import '../Styles/Header.css';
-import { NavLink } from 'react-router-dom';
-import LoginModal from './LoginModal';
 
 const Header = ({ openLoginModal }) => {
-  const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-
-  const handleEnquireClick = () => {
-    openLoginModal();
-    setLoginModalOpen(true);
-  };
-
-  const closeLoginModal = () => {
-    setLoginModalOpen(false);
-  };
 
   const toggleDropdown = () => {
     setDropdownOpen(!isDropdownOpen);
+  };
+
+  const handleEnquireClick = () => {
+    if (openLoginModal) {
+      openLoginModal();
+    } else {
+      console.error('openLoginModal is not a function');
+    }
   };
 
   return (
@@ -31,11 +27,6 @@ const Header = ({ openLoginModal }) => {
           <li><NavLink to="/dining">Dining</NavLink></li>
           <li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
             <NavLink id='dropDown2' to="/rooms">Rooms </NavLink>
-            {/* {isDropdownOpen && (
-              <ul className="dropdown-menu">
-                <li><NavLink to="/rooms/detail">Rooms Detail Page</NavLink></li>
-              </ul>
-            )} */}
           </li>
           <li><NavLink to="/contact">Contact Us</NavLink></li>
         </ul>
@@ -48,16 +39,8 @@ const Header = ({ openLoginModal }) => {
           <button className="enquire-button" onClick={handleEnquireClick}>Enquire Now</button>
         </div>
       </nav>
-      {isLoginModalOpen && (
-        <>
-          <div className="login-modal-bg" onClick={closeLoginModal}></div>
-          <LoginModal closeModal={closeLoginModal} />
-        </>
-      )}
     </header>
   );
 };
 
 export default Header;
-
-
