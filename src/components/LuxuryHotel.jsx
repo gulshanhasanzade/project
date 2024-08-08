@@ -1,3 +1,4 @@
+
 import React from 'react';
 import content from '../json/content.json';
 import '../Styles/LuxuryHotel.css';
@@ -22,4 +23,3 @@ const LuxuryHotel = () => {
 };
 
 export default LuxuryHotel;
-

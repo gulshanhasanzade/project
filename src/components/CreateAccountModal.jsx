@@ -8,6 +8,7 @@ const CreateAccountModal = ({ closeModal, showSuccessMessage }) => {
     showSuccessMessage();
   };
 
+
   return (
     <div className="create-account">
       <div className="create-account-modal">
@@ -28,7 +29,7 @@ const CreateAccountModal = ({ closeModal, showSuccessMessage }) => {
             </label>
             <button className='submit' type="submit">Register</button>
             <span className='or'>Or Login With</span>
-          <div className="login-with">
+            <div className="login-with">
             <button className='google'> <img src="./google.svg" alt="Google" /> Login with Google</button>
             <button className='apple'> <img src="./apple.svg" alt="Apple" /> Login with Apple</button>
             </div>

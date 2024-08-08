@@ -92,5 +92,22 @@ margin-top: 38px;
     transition: ease-in 0.2s;
   } 
 
-
+  @media (max-width: 767px) {
+    .gallery-section {
+      flex-direction: column;
+    }
+  
+    .gallery-row {
+      width: 100%;
+    }
+  
+    .gallery-center {
+      width: 100%;
+      padding: 40px 20px;
+    }
+  
+    .center-image {
+      width: 60%;
+    }
+  }
 

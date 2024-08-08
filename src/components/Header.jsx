@@ -1,13 +1,13 @@
-// Header.jsx
+
 import React, { useState } from 'react';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../Styles/Header.css';
 
 const Header = ({ openLoginModal }) => {
-  const [isDropdownOpen, setDropdownOpen] = useState(false);
+  const [isNavOpen, setNavOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setDropdownOpen(!isDropdownOpen);
+  const toggleNav = () => {
+    setNavOpen(!isNavOpen);
   };
 
   const handleEnquireClick = () => {
@@ -21,14 +21,18 @@ const Header = ({ openLoginModal }) => {
   return (
     <header className="header">
       <nav className="navbar">
-        <ul className="nav-links">
-          <li><NavLink to="/">Home</NavLink></li>
-          <li><NavLink to="/about">About Us</NavLink></li>
-          <li><NavLink to="/dining">Dining</NavLink></li>
-          <li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-            <NavLink id='dropDown2' to="/rooms">Rooms </NavLink>
-          </li>
-          <li><NavLink to="/contact">Contact Us</NavLink></li>
+        <img
+          src="/menu-icon.svg" 
+          alt="Menu Icon"
+          className="menu-icon"
+          onClick={toggleNav}
+        />
+        <ul className={isNavOpen ? 'nav-links open' : 'nav-links'}>
+          <li><NavLink to="/" onClick={toggleNav}>Home</NavLink></li>
+          <li><NavLink to="/about" onClick={toggleNav}>About Us</NavLink></li>
+          <li><NavLink to="/dining" onClick={toggleNav}>Dining</NavLink></li>
+          <li><NavLink to="/rooms" onClick={toggleNav}> Rooms</NavLink></li>
+          <li><NavLink to="/contact" onClick={toggleNav}>Contact Us</NavLink></li>
         </ul>
         <div className="logo">
           <img src="./logo.svg" alt="Seasons Heritage Logo" />
@@ -44,3 +48,5 @@ const Header = ({ openLoginModal }) => {
 };
 
 export default Header;
+
+

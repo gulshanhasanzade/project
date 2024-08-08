@@ -1,4 +1,4 @@
-// Home.jsx
+
 import React from 'react';
 import LuxuryHotel from '../components/LuxuryHotel';
 import CuisineExperience from '../components/CuisineExperience';

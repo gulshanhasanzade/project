@@ -91,4 +91,33 @@ cursor: pointer;
     flex-shrink: 0;
     margin-top: -25%;
   }
-  
+
+
+@media (max-width: 767px) {
+  .cuisine-experience {
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .images2 {
+    width: 100%;
+    height: auto;
+    position: static;
+    margin-top: -70px;
+    order: -1; 
+  }
+
+  .images2 img {
+    position: static;
+    margin: 20px 0; 
+    width: 100%;
+    height: auto;
+  }
+
+  .text-content2 {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+}

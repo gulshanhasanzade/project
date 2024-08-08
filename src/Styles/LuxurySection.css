@@ -74,3 +74,33 @@ margin-top: 48px;
    background-color: #FFF;
    color: #5F6E5B;
 }
+
+
+
+@media (max-width: 767px) {
+  .luxury-section {
+    flex-direction: column;
+    padding: 30px;
+    height: auto;
+  }
+
+  .luxury-content {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .luxury-content h1 {
+    font-size: 32px;
+  }
+
+  .luxury-content p {
+    font-size: 16px;
+  }
+
+  .luxury-button {
+    /* width: 100%; */
+    justify-content: center;
+  }
+}

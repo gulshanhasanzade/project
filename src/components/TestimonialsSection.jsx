@@ -20,13 +20,17 @@ const TestimonialsSection = () => {
 
   return (
     <div className="testimonials-section">
-      
+      <div className='background0'>
       <h1>Feelings Of Our Happy Client’s</h1>
+      <div className="arrows">
+        <button onClick={handlePrev}><img src="./arrow1.svg" alt="" /></button>
+        <button onClick={handleNext}><img src="./arrow2.svg" alt="" /></button>
+      </div>
+      </div>
       <p>It is a long established fact that a reader will be distracted by the readable content.</p>
       <div className="testimonials-container">
         {currentTestimonials.map((testimonial, index) => (
           <div key={index} className="testimonial-item">
-            {/* <img src={testimonial.image} alt={testimonial.name} className="testimonial-image" /> */}
             <div className="rating">
               {'★'.repeat(testimonial.rating)}
             </div>
@@ -42,10 +46,7 @@ const TestimonialsSection = () => {
           </div>
         ))}
       </div>
-      <div className="arrows">
-        <button onClick={handlePrev}><img src="./arrow1.svg" alt="" /></button>
-        <button onClick={handleNext}><img src="./arrow2.svg" alt="" /></button>
-      </div>
+      
     </div>
   );
 };

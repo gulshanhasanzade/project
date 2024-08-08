@@ -21,11 +21,6 @@ align-items: center;
 gap: 13px;
 background: #FFF;
 position: relative;
-/* bottom: 0;
-width: 100%;
-height: 100vh;
-gap: 30px;
-justify-content: center; */
 }
 .footer-logo1{
   display: flex;
@@ -127,18 +122,18 @@ letter-spacing: -0.32px;
     height: 24px;  
   }
 
+ 
+
+@media (max-width: 767px) {
+  .footer2 {
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
   
-/* .leaf{  
-width: 789px;
-height: 789px;
-position: absolute;
-right: -350px;
-top: 200px;
+  .footer-links{
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
-
-.leaf img{
-  width: 100%;
-  height: 100%;
-} */
-
-
