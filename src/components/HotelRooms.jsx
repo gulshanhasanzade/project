@@ -108,10 +108,8 @@ const HotelRooms = () => {
                   <span className="price-per-night">/{perNight}</span>
                 </div>
                 <Link to={`/room/${room.id}`} className="room-button">Discover More <img src="./right.svg" alt="" /></Link>
-              </div>
-              
-            </div>
-           
+              </div>      
+            </div>          
           );
         })}
       </div>

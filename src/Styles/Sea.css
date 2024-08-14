@@ -41,4 +41,24 @@
 }
 
 
+@media (max-width: 767px) {
+  .room-images {
+    flex-direction: column;
+  }
 
+  .main-image {
+    flex: 2;
+    height: 100%;
+  }
+
+  .thumbnail-images {
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between; 
+  }
+
+  .thumbnail {
+    width: 100%;
+    height: 100%;
+  }
+}

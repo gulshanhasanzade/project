@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
@@ -19,17 +18,24 @@
   justify-content: space-between;
   flex-direction: column;
 }
-.rooms-container3{
-  width: 1200px;
+
+.rooms-container3 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rooms-header {
+  margin-bottom: 40px;
+  padding: 0 20px;
 }
 
 .rooms-header h1 {
   margin-bottom: 10px;
-  margin-top: 20px;
   color: #070E05;
   text-align: center;
   font-family: "DM Serif Display";
-  font-size: 48px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 400;
   line-height: 126%;
@@ -37,7 +43,6 @@
 }
 
 .rooms-header p {
-  margin-bottom: 40px;
   color: #7B7B7B;
   text-align: center;
   font-family: Lexend;
@@ -52,27 +57,30 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  width: 100%;
 }
 
 .room-card {
   width: 100%;
+  overflow: hidden;
 }
 
 .room-card img {
   width: 100%;
-  height: auto;
-}
+  height: 450px; 
+  object-fit: cover;
+ }
 
 .room-info {
   width: 100%;
-  padding: 0px;
+  padding: 15px 0;
   text-align: left;
 }
 
 .room-info h2 {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   margin-top: 10px;
-  color:  #070E05;
+  color: #070E05;
   font-family: Lexend;
   font-size: 24px;
   font-style: normal;
@@ -82,9 +90,9 @@
 }
 
 .room-info p {
-  width: 93%;
-  margin-bottom: 10px; 
-  color:  #070E05;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #070E05;
   font-family: Lexend;
   font-size: 16px;
   font-style: normal;
@@ -106,15 +114,14 @@
   display: flex;
   align-items: center;
   margin-right: 10px;
- gap: 3px;
-  color:  #676767;
-/* Text md/Regular */
-font-family: Lexend;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 150%; /* 24px */
-letter-spacing: -0.32px;
+  gap: 3px;
+  color: #676767;
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
 }
 
 .detail-icon1 {
@@ -129,45 +136,42 @@ letter-spacing: -0.32px;
 }
 
 .price-amount {
-  color:#070E05;
-/* xs/Medium */
-font-family: Lexend;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 132%; /* 31.68px */
-letter-spacing: -0.48px;
+  color: #070E05;
+  font-family: Lexend;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132%; /* 31.68px */
+  letter-spacing: -0.48px;
 }
 
 .price-per-night {
-  color:  #070E05;
-/* Text md/Regular */
-font-family: Lexend;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 150%;
-letter-spacing: -0.32px;
+  color: #070E05;
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: -0.32px;
 }
 
 .room-button {
-  width: 25%;
-  display: flex;
+  width: auto;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 10px 10px 0;
-  color:  #5F6E5B;
-text-align: center;
-/* Text md/Regular */
-font-family: Lexend;
-font-size: 16px;
-gap: 5px;
-font-style: normal;
-font-weight: 300;
-line-height: 150%; /* 24px */
-letter-spacing: -0.32px;
-border:  1px solid #FFF;
-transition: ease-in 0.2s;
+  padding: 10px 15px;
+  color: #5F6E5B;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 16px;
+  gap: 5px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+  border: 1px solid #FFF;
+  transition: ease-in 0.2s;
 }
 
 .room-button img {
@@ -177,4 +181,45 @@ transition: ease-in 0.2s;
 
 .room-button:hover {
   border: 1px solid #5F6E5B;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .rooms-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .room-card img {
+    height: 300px;
+  }
+
+  .room-info h2 {
+    font-size: 20px;
+  }
+
+  .price-amount {
+    font-size: 20px;
+  }
+
+  .room-button {
+    padding: 12px;
+  }
+
+  .room-button img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .rooms-header h1{
+    color:  #070E05;
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 132%; /* 39.6px */
+letter-spacing: -0.6px;
+  }
 }

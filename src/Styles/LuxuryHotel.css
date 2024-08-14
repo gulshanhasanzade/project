@@ -118,8 +118,9 @@
     margin-left: 0;
     max-width: 100%;
   }
-  #btn{
-    width: 36%;
-  }
+  /* #btn{
+    display: flex;
+    width: 60%;
+  } */
 
 }

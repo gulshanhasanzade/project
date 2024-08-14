@@ -78,7 +78,13 @@ const App = () => {
   return (
     <div className="App4">
       <section className="similar-suites">
+        <div className="section-title0">
         <h2>Similar Suites</h2>
+        {!showAll && (
+          <button className="discover-all" onClick={handleDiscoverAll}>Discover All Suites <img src="/right.svg" alt="" /></button>
+        )}  
+        </div>
+
         <div className={`suites-container ${showAll ? 'scrollable' : ''}`}>
           {suites.slice(0, showAll ? suites.length : 3).map((suite, index) => (
             <div className="suite-card2" key={index}>
@@ -97,9 +103,7 @@ const App = () => {
             </div>
           ))}
         </div>
-        {!showAll && (
-          <button className="discover-all" onClick={handleDiscoverAll}>Discover All Suites <img src="/right.svg" alt="" /></button>
-        )}
+       
       </section>
     </div>
   );

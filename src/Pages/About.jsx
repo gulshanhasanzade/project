@@ -24,7 +24,7 @@ const About = () => {
 <Services2/>
 <ServicesSection/>
 <TestimonialsSection/>
-    </div>
+</div>
   );
 }
 

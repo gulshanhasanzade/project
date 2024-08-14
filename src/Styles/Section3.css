@@ -122,9 +122,6 @@ letter-spacing: -0.96px;
   align-items: center;
   border: 1px solid #5F6E5B;
   justify-content: center;
-  position: absolute; 
-  top: 7px; 
-  right: 0; 
   color:  #5F6E5B;
 text-align: center;
 font-family: Lexend;
@@ -139,4 +136,30 @@ letter-spacing: -0.32px;
     background-color: #5F6E5B;
     color: #FFF;
     transition: ease-in 0.2s;
+}
+
+.section-title0{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+@media (max-width: 767px) {
+  .suites-container {
+    flex-direction: column; 
+    flex-wrap: wrap;
+  }
+
+  .discover-more {
+    width: 35%;
+  }
+
+  .section-title0{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+  }
+
+  .discover-all{
+    width: 45%;
+  }
 }

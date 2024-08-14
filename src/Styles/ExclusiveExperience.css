@@ -46,7 +46,7 @@ letter-spacing: -0.32px;
   
   .video-wrapper {
     position: relative;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    padding-top: 56.25%; 
   }
   
   .react-player {
@@ -57,3 +57,30 @@ letter-spacing: -0.32px;
     height: 100% !important;
   }
   
+
+  @media (max-width: 767px) {
+    .exclusive-experience-container {
+      margin: 20px;
+      
+    }
+  
+    .exclusive-experience-container h1 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+      font-size: 32px;
+      line-height: 140%;
+      text-align: left; 
+    }
+  
+    .exclusive-experience-container p {
+      font-size: 1em;
+      margin-bottom: 30px;
+      font-size: 14px;
+      line-height: 130%; 
+      text-align: left; 
+    }
+  
+    .video-wrapper {
+      padding-top: 75%; 
+    }
+  }

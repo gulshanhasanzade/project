@@ -4,7 +4,6 @@ import '../Styles/Restaurant.css';
 const Restaurant = () => {
   return (
     <div className="restaurant-container">
-
       <div className="image-content">
         <img src="image100.jpg" alt="Restaurant" />
       </div>
@@ -19,7 +18,6 @@ const Restaurant = () => {
         </p>
         <button className="explore-button">Explore More <img src="right.svg" alt="" /> </button>
       </div>
-     
     </div>
   );
 };

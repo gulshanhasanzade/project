@@ -24,7 +24,7 @@ const Rooms = () => {
           <label>Check Out</label>
           <input type="date" defaultValue="2023-12-10" />
         </div>
-        <div className="input-group guests-input">
+        <div id="input-group" className="input-group guests-input">
           <label>Guests</label>
           <input type="text" defaultValue="2 Adults, 1 Child" />
         </div>
