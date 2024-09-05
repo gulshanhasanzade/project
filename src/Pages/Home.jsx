@@ -36,7 +36,7 @@ const Home = () => {
       </div> 
       <LuxuryHotel />
       <CuisineExperience />
-      <Suites />
+      <Suites/>
       <LuxurySection />
       <ServicesSection />
       <TestimonialsSection /> 

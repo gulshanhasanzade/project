@@ -35,10 +35,10 @@ const Header = ({ openLoginModal }) => {
           <li><NavLink to="/contact" onClick={toggleNav}>Contact Us</NavLink></li>
         </ul>
         <div className="logo">
-          <img src="./logo.svg" alt="Seasons Heritage Logo" />
+          <img src="/logo.svg" alt="Seasons Heritage Logo" />
         </div>
         <div className="contact">
-          <span className="icon"><img src="./icon.svg" alt="Contact Icon" /></span>
+          <span className="icon"><img src="/icon.svg" alt="Contact Icon" /></span>
           <span>(303) 555-0105</span>
           <button className="enquire-button" onClick={handleEnquireClick}>Enquire Now</button>
         </div>

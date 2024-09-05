@@ -16,7 +16,7 @@ const LuxuryHotel = () => {
         {content.description.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
-        <button id='btn'>{content.buttonText}<img src="./right.svg" alt="" /> </button>
+        <button id='btn'>{content.buttonText}<img src="./right.svg" alt="" /></button>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-logo1">
-          <img src="./LogoIcon.jpg" alt="Seasons Heritage Logo" />
+          <img src="/LogoIcon.jpg" alt="Seasons Heritage Logo" />
           <p>(319) 555-0115</p>
           <p><a href="#">info@seasonsheritage.com</a></p>
           <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
@@ -25,9 +25,9 @@ const Footer = () => {
       <div className="footer2">
         <p>©2023 Seasons Heritage All Rights are reserved</p>
         <div className="footer2Icons"> 
-        <a href="#"><img src='./facebook.svg'></img></a>
-        <a href="#"><img src='./instagram.svg'></img></a>
-        <a href="#"><img src='./twitter.svg'></img></a>
+        <a href="#"><img src='/facebook.svg'></img></a>
+        <a href="#"><img src='/instagram.svg'></img></a>
+        <a href="#"><img src='/twitter.svg'></img></a>
         </div>
       </div>
       {/* <span className='leaf'><img src='./leaf.svg' /></span> */}
